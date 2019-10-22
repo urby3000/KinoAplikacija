@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Bill</title>
+    <link rel="stylesheet" href="style.css" media="all" />
+</head>
+<body>
+    <header class="clearfix">
+        <div id="logo">
+            <img alt="Logo" src="logo.png"/>
+        </div>
+        <div id="company">
+            <h2 class="name">Kino Aplikacija</h2>
+            <div>Kino Aplikacija Naslov</div>
+            <div>123-456-789</div>
+            <div><a href="mailto:company@kinoaplikacija.co">company@kinoaplikacija.com</a></div>
+        </div>
+    </header>
+    <main>
+        <div id="details" class="clearfix">
+            <div id="client">
+                <div class="to">PREJEMNIK:</div>
+                <h2 class="name">{Name} {Lastname}</h2>
+                <div class="address">{UserAddress}</div>
+                <div class="email"><a href="mailto:{UserEmail}">{UserEmail}</a></div>
+                <div class="email">{UserTelephone}</div>
+            </div>
+            <div id="invoice">
+                <h1>RAČUN #25</h1>
+                <div class="date">Račun ustvarjen: četrtek, 06 junij 2019 10:22:25</div>
+                <div class="date">Datum plačila: četrtek, 06 junij 2019 10:28:56</div>
+            </div>
+        </div>
+        <table >
+            <thead>
+                <tr>
+                    <th  class="no">Dogodek #</th>
+                    <th  class="qty">Film</th>
+                    <th  class="unit">Datum</th>
+                    <th  class="qty">Čas</th>
+                    <th  class="unit">Naslov Kina</th>
+                    <th  class="qty">Kino & Dvorana</th>
+                    <th  class="unit"># Sedežev</th>
+                    <th  class="qty">Količina</th>
+                    <th  class="unit">Cena/Kos</th>
+                    <th  class="total">Cena</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="no">4</th>
+                    <th class="qty">Scarface</th>
+                    <th class="unit">09 september 2019</th>
+                    <th class="qty">19:00:00</th>
+                    <th class="unit">Kino Address 1, Celje, Slovenija</th>
+                    <th class="qty">Kino Name 1, Room 2</th>
+                    <th class="unit">20 22 29 31 </th>
+                    <th class="qty">4</th>
+                    <th class="unit">6 €</th>
+                    <th class="total">24 €</th>
+                </tr>
+                
+                <tr>
+                    <th class="no">6</th>
+                    <th class="qty">The Godfather</th>
+                    <th class="unit">31 maj 2019</th>
+                    <th class="qty">20:40:00</th>
+                    <th class="unit">Kino Address 2, Ljubljana, Slovenija</th>
+                    <th class="qty">Kino Name 2, Room 2</th>
+                    <th class="unit">19 20 21 22 </th>
+                    <th class="qty">4</th>
+                    <th class="unit">7 €</th>
+                    <th class="total">28 €</th>
+                </tr>
+                
+                <!--
+                <tr>
+                    <th class="no">{EventId}</th>
+                    <th class="qty">{MovieTitle}</th>
+                    <th class="unit">{Date}</th>
+                    <th class="qty">{Time}</th>
+                    <th class="unit">{TheaterAddress}</th>
+                    <th class="qty">{TheaterRoom}</th>
+                    <th class="unit">{SeatNumbers}</th>
+                    <th class="qty">{Quantity}</th>
+                    <th class="unit">{UnitPrice}</th>
+                    <th class="total">{Total}</th>
+                </tr>
+                -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5"></td>
+                    <td colspan="1">POLNA CENA</td>
+                    <td colspan="4">52 €</td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                    <td colspan="1">POPUST</td>
+                    <td colspan="4">June Discount  6 %</td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                    <td colspan="1">CENA S POPUSTOM</td>
+                    <td colspan="4">48,88 €</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        Račun je bil ustvarjen na računalniku in velja brez podpisa in pečata.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Bill</title>
+    <link rel="stylesheet" href="style.css" media="all" />
+</head>
+<body>
+    <header class="clearfix">
+        <div id="logo">
+            <img alt="Logo" src="logo.png"/>
+        </div>
+        <div id="company">
+            <h2 class="name">Kino Aplikacija</h2>
+            <div>Kino Aplikacija Naslov</div>
+            <div>123-456-789</div>
+            <div><a href="mailto:company@kinoaplikacija.co">company@kinoaplikacija.com</a></div>
+        </div>
+    </header>
+    <main>
+        <div id="details" class="clearfix">
+            <div id="client">
+                <div class="to">{BillTo}</div>
+                <h2 class="name">{Name} {Lastname}</h2>
+                <div class="address">{UserAddress}</div>
+                <div class="email"><a href="mailto:{UserEmail}">{UserEmail}</a></div>
+                <div class="email">{UserTelephone}</div>
+            </div>
+            <div id="invoice">
+                <h1>{BillText} #{BillId}</h1>
+                <div class="date">{DateOfBill} {OrderDate}</div>
+                <div class="date">{DateOfPayment} {PayDate}</div>
+            </div>
+        </div>
+        <table >
+            <thead>
+                <tr>
+                    <th  class="no">{ColumnEvent} #</th>
+                    <th  class="qty">{ColumnMovie}</th>
+                    <th  class="unit">{ColumnDate}</th>
+                    <th  class="qty">{ColumnTime}</th>
+                    <th  class="unit">{ColumnTheaterAddress}</th>
+                    <th  class="qty">{ColumnTheaterRoom}</th>
+                    <th  class="unit">{ColumnSeatNumbers}</th>
+                    <th  class="qty">{ColumnQuantity}</th>
+                    <th  class="unit">{ColumnUnitPrice}</th>
+                    <th  class="total">{ColumnTotal}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--
+                <tr>
+                    <th class="no">{EventId}</th>
+                    <th class="qty">{MovieTitle}</th>
+                    <th class="unit">{Date}</th>
+                    <th class="qty">{Time}</th>
+                    <th class="unit">{TheaterAddress}</th>
+                    <th class="qty">{TheaterRoom}</th>
+                    <th class="unit">{SeatNumbers}</th>
+                    <th class="qty">{Quantity}</th>
+                    <th class="unit">{UnitPrice}</th>
+                    <th class="total">{Total}</th>
+                </tr>
+                -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5"></td>
+                    <td colspan="1">{TotalPriceHtml}</td>
+                    <td colspan="4">{BillPrice}</td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                    <td colspan="1">{DiscountHtml}</td>
+                    <td colspan="4">{Discount}</td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                    <td colspan="1">{PriceAfterDiscountHtml}</td>
+                    <td colspan="4">{FullPrice}</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        {FooterHtml}
+    </footer>
+</body>
+</html>

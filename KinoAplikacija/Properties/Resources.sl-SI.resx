@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddressLabel" xml:space="preserve">
+    <value>Naslov</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Kino Aplikacija</value>
+    <comment>homeform</comment>
+  </data>
+  <data name="BackButton" xml:space="preserve">
+    <value>Nazaj</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="BillDateLabel" xml:space="preserve">
+    <value>Datum Računa</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="BillHtml" xml:space="preserve">
+    <value>RAČUN</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="BillInfoFormText" xml:space="preserve">
+    <value>Informacije o Računu</value>
+    <comment>BillInfoForm</comment>
+  </data>
+  <data name="BillNumberLabel" xml:space="preserve">
+    <value># Računa</value>
+    <comment>BillInfoControl</comment>
+  </data>
+  <data name="BillsReservationsLabel" xml:space="preserve">
+    <value>Računi in Rezervacije</value>
+    <comment>BillForUserControl</comment>
+  </data>
+  <data name="BillToHtml" xml:space="preserve">
+    <value>PREJEMNIK:</value>
+    <comment>html bill template </comment>
+  </data>
+  <data name="BillTranslate" xml:space="preserve">
+    <value>Račun</value>
+    <comment>BillForUserControl</comment>
+  </data>
+  <data name="BirthdayLabel" xml:space="preserve">
+    <value>Rojstni Dan</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="CheckoutButton" xml:space="preserve">
+    <value>Na Blagajno</value>
+    <comment>UserEventsControl</comment>
+  </data>
+  <data name="CheckoutFormText" xml:space="preserve">
+    <value>Blagajna</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="ChooseSeatsWindowName" xml:space="preserve">
+    <value>Izberi sedeže</value>
+    <comment>ChooseSeats</comment>
+  </data>
+  <data name="CloseButton" xml:space="preserve">
+    <value>Zapri</value>
+    <comment>ChooseSeats</comment>
+  </data>
+  <data name="ColumnDate" xml:space="preserve">
+    <value>Datum</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="ColumnDateHtml" xml:space="preserve">
+    <value>Datum</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="ColumnEventHtml" xml:space="preserve">
+    <value>Dogodek</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="ColumnEventId" xml:space="preserve">
+    <value># Dogodka</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="ColumnMovieHtml" xml:space="preserve">
+    <value>Film</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="ColumnMovieTitle" xml:space="preserve">
+    <value>Naslov filma</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="ColumnNumberOfSeats" xml:space="preserve">
+    <value>Količina</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="ColumnPriceForOne" xml:space="preserve">
+    <value>Cena/Kos</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="ColumnQuantityHtml" xml:space="preserve">
+    <value>Količina</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="ColumnSeatNumbers" xml:space="preserve">
+    <value># Sedežev</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="ColumnSeatNumbersHtml" xml:space="preserve">
+    <value># Sedežev</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="ColumnTheaterAddress" xml:space="preserve">
+    <value>Naslov Kina</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="ColumnTheaterAddressHtml" xml:space="preserve">
+    <value>Naslov Kina</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="ColumnTheaterRoom" xml:space="preserve">
+    <value>Kino &amp; Dvorana</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="ColumnTheaterRoomHtml" xml:space="preserve">
+    <value>Kino &amp; Dvorana</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="ColumnTime" xml:space="preserve">
+    <value>Čas</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="ColumnTimeHtml" xml:space="preserve">
+    <value>Čas</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="ColumnTotalHtml" xml:space="preserve">
+    <value>Cena</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="ColumnTotalPrice" xml:space="preserve">
+    <value>Skupna Cena</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="ColumnUnitPriceHtml" xml:space="preserve">
+    <value>Cena/Kos</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="ConfirmButton" xml:space="preserve">
+    <value>Potrdi</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="DateOfBillHtml" xml:space="preserve">
+    <value>Račun ustvarjen:</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="DateOfPaymentHtml" xml:space="preserve">
+    <value>Datum plačila:</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="DiscountHtml" xml:space="preserve">
+    <value>POPUST</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="DiscountLabel" xml:space="preserve">
+    <value>Popust</value>
+    <comment>CheckoutForm BillInfoControl</comment>
+  </data>
+  <data name="DiscountTranslate" xml:space="preserve">
+    <value>Popust</value>
+    <comment>CheckoutForm</comment>
+  </data>
+  <data name="EmailLabel" xml:space="preserve">
+    <value>Email</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="ErrorEmailFormat" xml:space="preserve">
+    <value>Napačni format emaila.</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="ErrorEmailTelephoneTaken" xml:space="preserve">
+    <value>Email ali telefonska številka že obstaja.</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="ErrorFillOut" xml:space="preserve">
+    <value>Prosim izpolni.</value>
+    <comment>StartForm</comment>
+  </data>
+  <data name="ErrorPlace" xml:space="preserve">
+    <value>Kraj z tem ID-jem ne obstaja.</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="ErrorSelectSeat" xml:space="preserve">
+    <value>Prosim izberi sedež.</value>
+    <comment>ChooseSeats</comment>
+  </data>
+  <data name="ErrorTelephoneNumberFormat" xml:space="preserve">
+    <value>Napačni format telefonske številka.</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="ErrorWrongEmailPassword" xml:space="preserve">
+    <value>Napačni email ali geslo</value>
+    <comment>StartForm</comment>
+  </data>
+  <data name="ErrorWrongTelephonePassword" xml:space="preserve">
+    <value>Napačna telefonska številka ali geslo.</value>
+    <comment>StartForm</comment>
+  </data>
+  <data name="EventsButton" xml:space="preserve">
+    <value>Dogodki</value>
+    <comment>UserSidePanel</comment>
+  </data>
+  <data name="EventsLabel" xml:space="preserve">
+    <value>Dogodki</value>
+    <comment>UserEventsControl</comment>
+  </data>
+  <data name="FileTranslate" xml:space="preserve">
+    <value>Datoteka</value>
+    <comment>BillForUserControl</comment>
+  </data>
+  <data name="FooterHtml" xml:space="preserve">
+    <value>Račun je bil ustvarjen na računalniku in velja brez podpisa in pečata.</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="ForgetPasswordLinkLabel" xml:space="preserve">
+    <value>Ali si pozabil geslo?</value>
+    <comment>StartForm</comment>
+  </data>
+  <data name="ItemsLabel" xml:space="preserve">
+    <value>Produkti</value>
+    <comment>CheckoutForm BillInfoControl</comment>
+  </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>Vpis</value>
+    <comment>StartForm</comment>
+  </data>
+  <data name="LoginTitleLabel" xml:space="preserve">
+    <value>Vpis</value>
+    <comment>StartForm</comment>
+  </data>
+  <data name="NameLabel" xml:space="preserve">
+    <value>Ime</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="NewPasswordLabel" xml:space="preserve">
+    <value>Novo Geslo</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="paidDateLabelNotPaid" xml:space="preserve">
+    <value>Ni Poravnano.</value>
+    <comment>BillForUserControl</comment>
+  </data>
+  <data name="paidDateLabelPaid" xml:space="preserve">
+    <value>Plačano:</value>
+    <comment>BillForUserControl</comment>
+  </data>
+  <data name="PasswordChangeButton" xml:space="preserve">
+    <value>Spremeni Geslo</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="PasswordLabel" xml:space="preserve">
+    <value>Geslo</value>
+    <comment>StartForm</comment>
+  </data>
+  <data name="PayDateInfoLabel" xml:space="preserve">
+    <value>Datum Plačila</value>
+    <comment>BillInfoControl</comment>
+  </data>
+  <data name="PriceAfterDiscountHtml" xml:space="preserve">
+    <value>CENA S POPUSTOM</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="PriceAfterDiscountLabel" xml:space="preserve">
+    <value>Cena s popustom</value>
+    <comment>CheckoutForm BillInfoControl</comment>
+  </data>
+  <data name="PriceLabel" xml:space="preserve">
+    <value>Končna Cena</value>
+    <comment>CheckoutForm BillInfoControl</comment>
+  </data>
+  <data name="ProfileButton" xml:space="preserve">
+    <value>Profil</value>
+    <comment>UserSidePanel</comment>
+  </data>
+  <data name="ProfileLabel" xml:space="preserve">
+    <value>Profil</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="RemoveButton" xml:space="preserve">
+    <value>Odstrani</value>
+    <comment>ShoppingItem</comment>
+  </data>
+  <data name="ReservationsBillsButton" xml:space="preserve">
+    <value>Računi, Rezervacije</value>
+    <comment>UserSidePanel</comment>
+  </data>
+  <data name="ReserveButton" xml:space="preserve">
+    <value>Rezerviraj</value>
+    <comment>ChooseSeats</comment>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Shrani</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="ShoppingCartLabel" xml:space="preserve">
+    <value>Košarica</value>
+    <comment>UserEventsControl</comment>
+  </data>
+  <data name="SignUpButton" xml:space="preserve">
+    <value>Registriraj</value>
+    <comment>StartForm</comment>
+  </data>
+  <data name="SignUpTitleLabel" xml:space="preserve">
+    <value>Registracija</value>
+    <comment>StartForm</comment>
+  </data>
+  <data name="SimulatePaymentButton" xml:space="preserve">
+    <value>Simuliraj Plačilo</value>
+    <comment>BillInfoControl</comment>
+  </data>
+  <data name="SuccessSignUp" xml:space="preserve">
+    <value>Uspešna registracija!</value>
+    <comment>StartForm</comment>
+  </data>
+  <data name="SurnameLabel" xml:space="preserve">
+    <value>Priimek</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="TelephoneNumberLabel" xml:space="preserve">
+    <value>Telefonska Številka</value>
+    <comment>profilecontrol</comment>
+  </data>
+  <data name="TelephoneOrEmailLabel" xml:space="preserve">
+    <value>Telefonska številka ali Email</value>
+    <comment>StartForm</comment>
+  </data>
+  <data name="TotalPriceHtml" xml:space="preserve">
+    <value>POLNA CENA</value>
+    <comment>html bill template</comment>
+  </data>
+  <data name="BodyTextEmail" xml:space="preserve">
+    <value>Izgleda, da ste pozabili geslo. Poslali smo vam varnostno kodo s katero lahko nadaljujete.</value>
+    <comment>EmailTemplate</comment>
+  </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Vaša varnostna koda - </value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="ErrorInputPassword" xml:space="preserve">
+    <value>Prosim vnesite geslo.</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="ErrorSecurityCodeTime" xml:space="preserve">
+    <value>Napačna varnostna koda ali pretekel čas.</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="ErrorUserExist" xml:space="preserve">
+    <value>Uporabnik z tem emailom ne obstaja</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="HelloEmail" xml:space="preserve">
+    <value>Zdravo</value>
+    <comment>EmailTemplate</comment>
+  </data>
+  <data name="PasswordResetFormText" xml:space="preserve">
+    <value>Ponastavitev Gesla</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="PleaseCopyEmail" xml:space="preserve">
+    <value>Prosim kopirajte</value>
+    <comment>EmailTemplate</comment>
+  </data>
+  <data name="SecurityCodeEmail" xml:space="preserve">
+    <value>varnostno kodo</value>
+    <comment>EmailTemplate</comment>
+  </data>
+  <data name="Stage1Button" xml:space="preserve">
+    <value>Pošlji</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="Stage1HelpLabel" xml:space="preserve">
+    <value>Varnostna koda bo poslana na vaš email.</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="Stage2Button" xml:space="preserve">
+    <value>Nadaljuj</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="Stage2HelpLabel" xml:space="preserve">
+    <value>Nadaljuj ko boš prejel varnostno kodo</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="Stage3Button" xml:space="preserve">
+    <value>Nadaljuj</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="Stage3HelpLabel" xml:space="preserve">
+    <value>Vpiši varnostno kodo.</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="Stage3TextboxLabel" xml:space="preserve">
+    <value>Varnostna Koda</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="Stage4Button" xml:space="preserve">
+    <value>Ponastavi</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="Stage4HelpLabel" xml:space="preserve">
+    <value>Vpiši novo geslo.</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="SuccessPasswordReset" xml:space="preserve">
+    <value>Geslo je bilo uspešno ponastavljeno.</value>
+    <comment>PasswordResetForm</comment>
+  </data>
+  <data name="UseItEmail" xml:space="preserve">
+    <value>in jo uporabite kjer je zahtevana.</value>
+    <comment>EmailTemplate</comment>
+  </data>
+  <data name="LogOutButton" xml:space="preserve">
+    <value>Izpiši me</value>
+    <comment>HomeForm</comment>
+  </data>
+</root>

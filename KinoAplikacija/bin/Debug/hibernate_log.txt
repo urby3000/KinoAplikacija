@@ -1,0 +1,19 @@
+﻿2019-10-21 18:19:29,236 INFO  NHibernate.Cfg.Environment - NHibernate 3.3.1.4000 (3.3.3.GA)
+2019-10-21 18:19:29,285 INFO  NHibernate.Cfg.Environment - Bytecode provider name : lcg
+2019-10-21 18:19:29,286 INFO  NHibernate.Cfg.Environment - Using reflection optimizer
+2019-10-21 18:19:29,301 DEBUG NHibernate.Cfg.Configuration - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2019-10-21 18:19:29,301 DEBUG NHibernate.Cfg.Configuration - dialect=NHibernate.Dialect.MySQLDialect
+2019-10-21 18:19:29,301 DEBUG NHibernate.Cfg.Configuration - connection.driver_class=NHibernate.Driver.MySqlDataDriver
+2019-10-21 18:19:29,302 DEBUG NHibernate.Cfg.Configuration - use_proxy_validator=true
+2019-10-21 18:19:29,302 DEBUG NHibernate.Cfg.Configuration - connection.connection_string=Server=localhost;Database=kinoaplikacija;User ID=root;Password=;Port=3306
+2019-10-21 18:19:29,302 DEBUG NHibernate.Cfg.Configuration - show_sql=true
+2019-10-21 18:19:29,302 DEBUG NHibernate.Cfg.Configuration - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2019-10-21 18:19:29,577 INFO  NHibernate.Dialect.Dialect - Using dialect: NHibernate.Dialect.MySQLDialect
+2019-10-21 18:19:29,616 INFO  NHibernate.Cfg.XmlHbmBinding.Binder - Mapping class: KinoAplikacija.Entity.Bill -> Bills
+2019-10-21 18:19:29,634 DEBUG NHibernate.Cfg.XmlHbmBinding.Binder - Mapped property: Id -> ID, type: Int32
+2019-10-21 18:19:29,645 DEBUG NHibernate.Cfg.XmlHbmBinding.Binder - Mapped property: OrderDate -> OrderDate, type: DateTime
+2019-10-21 18:19:29,645 DEBUG NHibernate.Cfg.XmlHbmBinding.Binder - Mapped property: PayDate -> PayDate, type: DateTime
+2019-10-21 18:19:29,645 DEBUG NHibernate.Cfg.XmlHbmBinding.Binder - Mapped property: Paid -> Paid, type: Boolean
+2019-10-21 18:19:29,645 DEBUG NHibernate.Cfg.XmlHbmBinding.Binder - Mapped property: Price -> Price, type: Decimal
+2019-10-21 18:19:29,645 DEBUG NHibernate.Cfg.XmlHbmBinding.Binder - Mapped property: FullPrice -> FullPrice, type: Decimal
+2019-10-21 18:19:29,651 DEBUG NHibernate.Cfg.XmlHbmBinding.Binder - Mapped property: Discount -> FK_Discount_Id, type: KinoAplikacija.Entity.Discount
