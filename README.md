@@ -1,6 +1,7 @@
+TODO - NARED PREZENTACIJO XOXO
 # KinoAplikacija
 
-App Showcase Dropbox link: https://www.dropbox.com/s/zhukujhde4zvmb8/KinoApp.mp4?raw=1
+App Showcase Dropbox link: non existent
 
 2019 School project.
 
